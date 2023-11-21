@@ -1,0 +1,447 @@
+/* Estilos sorprendentes para el cuerpo y encabezado */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #16496b, #2a6a6c);
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to bottom, #2a6a6c, #16496b);
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos asombrosos para la navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ee992e;
+}
+
+/* Estilos deslumbrantes para la sección del héroe */
+.hero-section {
+    background: linear-gradient(to bottom, #ff9933, #ee992e);
+    padding: 70px 0;
+    text-align: center;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero h2 {
+    color: #fff;
+    font-size: 2em;
+}
+
+/* Estilos impresionantes para las secciones de contenido */
+.content-section {
+    padding: 70px 0;
+    text-align: center;
+}
+
+section h2 {
+    color: #ee992e;
+    font-size: 2em;
+}
+
+/* Estilos fascinantes para contenedores de imágenes */
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos aún más vistosos para la sección de conferencias */
+.content-section .conference-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.content-section .conference {
+    background: linear-gradient(to bottom, #f4f4f4, #ddd);
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    margin: 25px;
+    overflow: hidden;
+    max-width: 300px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.content-section .conference:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.7);
+}
+
+.content-section .conference img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    transition: transform 0.4s ease-in-out;
+}
+
+.content-section .conference:hover img {
+    transform: scale(1.1);
+}
+
+.content-section .conference-info {
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-section .conference-info h3 {
+    color: #2a6a6c;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.content-section .conference-info p {
+    color: #5b7e7a;
+    margin: 15px 0;
+    flex-grow: 1;
+}
+
+.content-section .conference-info button {
+    background: linear-gradient(to bottom, #ff9933, #ee992e);
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.content-section .conference-info button:hover {
+    background: linear-gradient(to bottom, #ffbb4e, #ff9933);
+}
+
+/* Estilos mejorados para la sección de blog */
+.blog-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.blog-section h2 {
+    color: #fff;
+}
+
+.blog-post {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.blog-post h3 {
+    color: #2a6a6c;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    color: #5b7e7a;
+    margin: 10px 0;
+}
+
+.blog-post blockquote {
+    background-color: #f8f8f8;
+    border-left: 5px solid #ee992e;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.blog-post blockquote p {
+    color: #5b7e7a;
+    margin: 0;
+}
+
+.blog-post em {
+    color: #ee992e;
+    font-style: italic;
+}
+
+/* Estilos mejorados para la sección de CTA */
+.cta {
+    margin-top: 30px;
+}
+
+.cta p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cta .btn {
+    display: inline-block;
+    background-color: #ee992e;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta .btn:hover {
+    background: linear-gradient(to bottom, #ffbb4e, #ff9933);
+}
+
+/* Estilos mejorados para la sección de recursos */
+.resource-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.resource-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.resource {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resource:hover {
+    transform: scale(1.05);
+}
+
+.resource img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resource:hover img {
+    transform: scale(1.1);
+}
+
+.resource-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.resource-info h3 {
+    color: #2a6a6c;
+    margin-bottom: 10px;
+}
+
+.resource-info p {
+    color: #5b7e7a;
+    margin: 10px 0;
+}
+
+.resource-info .btn {
+    display: inline-block;
+    background-color: #ee992e;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.resource-info .btn:hover {
+    background-color: #ffbb4e;
+}
+
+/* Estilos espectaculares para el pie de página */
+footer {
+    background: linear-gradient(to bottom, #2a6a6c, #16496b);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos excepcionales para la sección de Masterclass */
+.masterclass-section {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.masterclass-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.masterclass {
+    background: linear-gradient(to bottom, #f9f9f9, #eee);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: 30px;
+    overflow: hidden;
+    max-width: 300px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.masterclass:hover {
+    transform: scale(1.05);
+}
+
+.masterclass img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    transition: transform 0.4s ease-in-out;
+}
+
+.masterclass:hover img {
+    transform: scale(1.1);
+}
+
+.masterclass-info {
+    padding: 30px;
+    text-align: left;
+}
+
+.masterclass-info h3 {
+    color: #2a6a6c;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.masterclass-info p {
+    color: #5b7e7a;
+    margin: 20px 0;
+}
+
+.masterclass-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.masterclass-info ul li {
+    color: #5b7e7a;
+    margin: 15px 0;
+}
+
+.masterclass-info .btn {
+    display: inline-block;
+    background: linear-gradient(to bottom, #ee992e, #ff9933);
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.masterclass-info .btn:hover {
+    background: linear-gradient(to bottom, #ffbb4e, #ff9933);
+}
+
+/* Estilos excepcionales para la sección de contacto */
+.contact-section {
+    text-align: center;
+    padding: 70px 0;
+    background: linear-gradient(to bottom, #16496b, #2a6a6c);
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #2a6a6c;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background: linear-gradient(to bottom, #ee992e, #ff9933);
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background: linear-gradient(to bottom, #ffbb4e, #ff9933);
+}
